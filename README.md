@@ -22,6 +22,6 @@
 | 3  | flex-grow   | 残りの空間を主軸に割り当てため拡大比例の定義,デフォルト0割り当てしない                                                                                                                         | item_attribute/sample03.html |
 | 4  | flex-shrink | 余りの空間を主軸に当てはまるため縮小比例の定義,デフォルト0縮小しない                                                                                                                          | item_attribute/sample04.html |
 | 5  | flex-basis  | 単一項目の初期の寸法定義,デフォルトauto,widthの定義利用<br/>(width<flex-basis<min-width)                                                                                           | item_attribute/sample05.html |
-| 6  | flex        | flex-grow,flex-shrink,flex-basisセットの簡略記載法,デフォルト: 0 1 auto<br/>flex: 0 1 auto<br/>> 拡大しない、縮小可能、初期サイズ<br/>flex: 1 1 auto<br/>> 自動拡大縮小<br/>flex: 0 0 100px<br/>>　指定サイズで割り当て | item_attribute/sample05.html |
+| 6  | flex        | flex-grow,flex-shrink,flex-basisセットの簡略記載法,デフォルト: 0 1 auto<br/>flex: 0 1 auto<br/>> 拡大しない、縮小可能、初期サイズ<br/>flex: 1 1 auto<br/>> 自動拡大縮小<br/>flex: 0 0 100px<br/>>　指定サイズで割り当て | item_attribute/sample06.html |
 
 ---
