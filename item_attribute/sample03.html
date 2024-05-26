@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-grow</title>
+    <style>
+        .container {
+            display: flex;
+            margin-bottom: 10px;
+            width: 300px;
+            height: 150px;
+            border: black 1px solid;
+        }
+        .container1 {
+            flex-flow: row nowrap;
+        }
+        .container2 {
+            flex-flow: row nowrap;
+        }
+        .item {
+            width: 50px;
+            height: 50px;
+        }
+        .item1-1 {
+            background-color: antiquewhite;
+        }
+        .item1-2 {
+            background-color: greenyellow;
+        }
+        .item1-3 {
+            background-color: pink;
+        }
+        .item2-1 {
+            background-color: antiquewhite;
+            flex-grow: 0;
+        }
+        .item2-2 {
+            background-color: greenyellow;
+            flex-grow: 1;
+        }
+        .item2-3 {
+            background-color: pink;
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container container1">
+        <div class="item item1-1">1</div>
+        <div class="item item1-2">2</div>
+        <div class="item item1-3">3</div>
+    </div>
+    <div class="container container2">
+        <div class="item item2-1">1</div>
+        <div class="item item2-2">2</div>
+        <div class="item item2-3">3</div>
+    </div>
+</body>
+</html>

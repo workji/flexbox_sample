@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-direction</title>
+    <style>
+        .container {
+            display: flex;
+            margin-bottom: 10px;
+            width: 300px;
+            height: 150px;
+        }
+        .container1 {
+            flex-direction: row;
+        }
+        .container2 {
+            flex-direction: row-reverse;
+        }
+        .container3 {
+            flex-direction: column;
+        }
+        .container4 {
+            flex-direction: column-reverse;
+        }
+        .item {
+            width: 100px;
+            height: 50px;
+        }
+        .color1 {
+            background-color: antiquewhite;
+        }
+        .color2 {
+            background-color: greenyellow;
+        }
+        .color3 {
+            background-color: pink;
+        }
+        .color4 {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container container1">
+        <div class="item color1">1</div>
+        <div class="item color2">2</div>
+        <div class="item color3">3</div>
+        <div class="item color4">4</div>
+    </div>
+    <div class="container container2">
+        <div class="item color1">1</div>
+        <div class="item color2">2</div>
+        <div class="item color3">3</div>
+        <div class="item color4">4</div>
+    </div>
+    <div class="container container3">
+        <div class="item color1">1</div>
+        <div class="item color2">2</div>
+        <div class="item color3">3</div>
+        <div class="item color4">4</div>
+    </div>
+    <div class="container container4">
+        <div class="item color1">1</div>
+        <div class="item color2">2</div>
+        <div class="item color3">3</div>
+        <div class="item color4">4</div>
+    </div>
+</body>
+</html>

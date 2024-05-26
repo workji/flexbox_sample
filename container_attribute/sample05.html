@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>align-items</title>
+    <style>
+        .container {
+            display: flex;
+            margin-bottom: 10px;
+            width: 300px;
+            height: 150px;
+            border: black 1px solid;
+        }
+        .container1 {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+        .container2 {
+            flex-direction: row;
+            align-items: flex-end;
+        }
+        .container3 {
+            flex-direction: row;
+            align-items: center;
+        }
+        .item {
+            width: 50px;
+            height: 20px;
+        }
+        .color1 {
+            background-color: antiquewhite;
+        }
+        .color2 {
+            background-color: greenyellow;
+        }
+        .color3 {
+            background-color: pink;
+        }
+        .color4 {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container container1">
+        <div class="item color1">1</div>
+        <div class="item color2">2</div>
+        <div class="item color3">3</div>
+        <div class="item color4">4</div>
+    </div>
+    <div class="container container2">
+        <div class="item color1">1</div>
+        <div class="item color2">2</div>
+        <div class="item color3">3</div>
+        <div class="item color4">4</div>
+    </div>
+    <div class="container container3">
+        <div class="item color1">1</div>
+        <div class="item color2">2</div>
+        <div class="item color3">3</div>
+        <div class="item color4">4</div>
+    </div>
+</body>
+</html>
